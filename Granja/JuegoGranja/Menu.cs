@@ -257,6 +257,10 @@ namespace JuegoGranja
                         farm.Space += 1;
                         Console.WriteLine("\n - -> Ampliación comprada!!! :D ");
                     }
+                    else
+                    {
+                        Console.WriteLine("\n - -> No tienes dinero suficiente uu");
+                    }
                 }
 
                 else if (op == 7)

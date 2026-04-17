@@ -12,8 +12,10 @@ namespace JuegoGranja
         public int Space = 4;
 
         public List<string> Seeds = new List<string>();
+
         public List<Plant> Plants = new List<Plant>();
+
         public List<Animal> Animals = new List<Animal>();
-        public List<int> PendingSales = new List<int>();
+
     }
 }
